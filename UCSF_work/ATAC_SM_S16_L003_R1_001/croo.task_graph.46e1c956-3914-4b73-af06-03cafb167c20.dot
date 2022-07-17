@@ -1,0 +1,265 @@
+digraph D {
+graph [rankdir=LR nodesep=0.1 ranksep=0.3];
+node [shape=box fontsize=9 margin=0.05 penwidth=0.5 height=0 fillcolor=lightcyan color=darkgrey style=filled];
+edge [arrowsize=0.5 color=darkgrey penwidth=0.5];
+subgraph cluster_pooled_rep {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = oldlace;
+labeljust = "l";
+label = "Pooled replicate";
+}
+subgraph cluster_rep1 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 1";
+"5055197247084690416";
+"454569835605706935";
+"-8408257614897313588";
+"-4687214027040191840";
+"5070900776933635984";
+"-304987781103750817";
+"7364876316270162335";
+"-1726757026783964877";
+"-1829474999434124016";
+"790143761775991743";
+"8747827563612458097";
+"3195357194884662507";
+"5444415710582421663";
+"4735669260119232961";
+"2201708192412804201";
+}
+subgraph cluster_rep2 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 2";
+}
+subgraph cluster_rep3 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 3";
+}
+subgraph cluster_rep4 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 4";
+}
+subgraph cluster_rep5 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 5";
+}
+subgraph cluster_rep6 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 6";
+}
+subgraph cluster_rep7 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 7";
+}
+subgraph cluster_rep8 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 8";
+}
+subgraph cluster_rep9 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 9";
+}
+subgraph cluster_rep10 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Replicate 10";
+}
+subgraph cluster_pooled_ctl {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = oldlace;
+labeljust = "l";
+label = "Pooled control";
+}
+subgraph cluster_ctl1 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 1";
+}
+subgraph cluster_ctl2 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 2";
+}
+subgraph cluster_ctl3 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 3";
+}
+subgraph cluster_ctl4 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 4";
+}
+subgraph cluster_ctl5 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 5";
+}
+subgraph cluster_ctl6 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 6";
+}
+subgraph cluster_ctl7 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 7";
+}
+subgraph cluster_ctl8 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 8";
+}
+subgraph cluster_ctl9 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 9";
+}
+subgraph cluster_ctl10 {
+style = "filled, dashed";
+fontsize = 9;
+color = darkgrey;
+penwidth = 0.5;
+fillcolor = honeydew;
+labeljust = "l";
+label = "Control 10";
+}
+"5055197247084690416" [label="bam2ta" href="atac.bam2ta" target="blank" tooltip="atac.bam2ta"];
+"454569835605706935" [shape=box style="filled, rounded" fillcolor=lightyellow label="TAG-ALIGN" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-bam2ta/shard-0/execution/glob-199637d3015dccbe277f621a18be9eb4/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.tagAlign.gz" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-bam2ta/shard-0/execution/glob-199637d3015dccbe277f621a18be9eb4/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.tagAlign.gz"];
+"5404967095016506260" [label="jsd" href="atac.jsd" target="blank" tooltip="atac.jsd"];
+"5980485236376481375" [shape=oval style="filled" fillcolor=gainsboro fontsize=6 margin=0 label="JSD\nPlot" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-jsd/execution/glob-fc36854b6867c1581ab159b09dd7e2f4/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.jsd_plot.png" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-jsd/execution/glob-fc36854b6867c1581ab159b09dd7e2f4/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.jsd_plot.png"];
+"-8408257614897313588" [label="macs2_signal_track" href="atac.macs2_signal_track" target="blank" tooltip="atac.macs2_signal_track"];
+"-4687214027040191840" [shape=box style="filled, rounded" fillcolor=lightyellow label="BW\np-val" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-macs2_signal_track/shard-0/execution/glob-7ab0340dfeb10ca109917cbdcc568548/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-macs2_signal_track/shard-0/execution/glob-7ab0340dfeb10ca109917cbdcc568548/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval.signal.bigwig"];
+"5070900776933635984" [shape=box style="filled, rounded" fillcolor=lightyellow label="BW\nFC" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-macs2_signal_track/shard-0/execution/glob-8876d8ced974dc46a0c7a4fac20a3a95/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-macs2_signal_track/shard-0/execution/glob-8876d8ced974dc46a0c7a4fac20a3a95/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.fc.signal.bigwig"];
+"-304987781103750817" [label="call_peak" href="atac.call_peak" target="blank" tooltip="atac.call_peak"];
+"7364876316270162335" [shape=box style="filled, rounded" fillcolor=lightyellow label="Peak\n(bfilt)" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-call_peak/shard-0/execution/glob-2e6c87fc90e45fa5dbda88934d454cd3/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-call_peak/shard-0/execution/glob-2e6c87fc90e45fa5dbda88934d454cd3/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.bfilt.narrowPeak.gz"];
+"-1726757026783964877" [shape=box style="filled, rounded" fillcolor=lightyellow label="Peak" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-call_peak/shard-0/execution/glob-254907fcd430d7e6c9bf67ac4585adb4/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.narrowPeak.gz" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-call_peak/shard-0/execution/glob-254907fcd430d7e6c9bf67ac4585adb4/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.tn5.pval0.01.300K.narrowPeak.gz"];
+"770674250724286009" [label="reproducibility_overlap" href="atac.reproducibility_overlap" target="blank" tooltip="atac.reproducibility_overlap"];
+"-8660112306350725620" [shape=box style="filled, rounded" fillcolor=lightyellow label="Overlap Peak\noptimal" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-reproducibility_overlap/execution/glob-1b1244d5baf1a7d98d4b7b76d79e43bf/overlap.optimal_peak.narrowPeak.gz" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-reproducibility_overlap/execution/glob-1b1244d5baf1a7d98d4b7b76d79e43bf/overlap.optimal_peak.narrowPeak.gz"];
+"4979666809573909958" [shape=oval style="filled" fillcolor=gainsboro fontsize=6 margin=0 label="Overlap\nreproducibility" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-reproducibility_overlap/execution/glob-2e0755477c7b64fb4cd35cd75c0b0f2a/overlap.reproducibility.qc" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-reproducibility_overlap/execution/glob-2e0755477c7b64fb4cd35cd75c0b0f2a/overlap.reproducibility.qc"];
+"-1829474999434124016" [label="filter" href="atac.filter" target="blank" tooltip="atac.filter"];
+"790143761775991743" [shape=oval style="filled" fillcolor=gainsboro fontsize=6 margin=0 label="SAMstats\nQC" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-filter/shard-0/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.samstats.qc" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-filter/shard-0/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.samstats.qc"];
+"8747827563612458097" [shape=box style="filled, rounded" fillcolor=lightyellow label="Filt/deduped\nBAM" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-filter/shard-0/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.bam" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-filter/shard-0/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/1A_S16_L003_R1_001.trim.srt.nodup.no_chrM_MT.bam"];
+"3195357194884662507" [shape=oval style="filled" fillcolor=gainsboro fontsize=6 margin=0 label="LibCmplx\nQC" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-filter/shard-0/execution/glob-57d0acc485690c2359d57a5a21e0aedb/1A_S16_L003_R1_001.trim.srt.lib_complexity.qc" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-filter/shard-0/execution/glob-57d0acc485690c2359d57a5a21e0aedb/1A_S16_L003_R1_001.trim.srt.lib_complexity.qc"];
+"-8267993548484073920" [label="reproducibility_idr" href="atac.reproducibility_idr" target="blank" tooltip="atac.reproducibility_idr"];
+"1925441941087485724" [shape=box style="filled, rounded" fillcolor=lightyellow label="IDR Peak\noptimal" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-reproducibility_idr/execution/glob-1b1244d5baf1a7d98d4b7b76d79e43bf/idr.optimal_peak.narrowPeak.gz" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-reproducibility_idr/execution/glob-1b1244d5baf1a7d98d4b7b76d79e43bf/idr.optimal_peak.narrowPeak.gz"];
+"-2165641183761141678" [shape=oval style="filled" fillcolor=gainsboro fontsize=6 margin=0 label="IDR\nreproducibility" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-reproducibility_idr/execution/glob-2e0755477c7b64fb4cd35cd75c0b0f2a/idr.reproducibility.qc" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-reproducibility_idr/execution/glob-2e0755477c7b64fb4cd35cd75c0b0f2a/idr.reproducibility.qc"];
+"5444415710582421663" [label="align" href="atac.align" target="blank" tooltip="atac.align"];
+"4735669260119232961" [shape=oval style="filled" fillcolor=gainsboro fontsize=6 margin=0 label="SAMstats\nQC" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-align/shard-0/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/1A_S16_L003_R1_001.trim.srt.samstats.qc" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-align/shard-0/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/1A_S16_L003_R1_001.trim.srt.samstats.qc"];
+"2201708192412804201" [shape=box style="filled, rounded" fillcolor=lightyellow label="BAM" href="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-align/shard-0/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/1A_S16_L003_R1_001.trim.srt.bam" target="blank" tooltip="/costellolab/data3/sermare/ATAC_seq/atac/46e1c956-3914-4b73-af06-03cafb167c20/call-align/shard-0/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/1A_S16_L003_R1_001.trim.srt.bam"];
+"5055197247084690416" -> "454569835605706935";
+"454569835605706935" -> "-8267993548484073920";
+"454569835605706935" -> "-8408257614897313588";
+"454569835605706935" -> "770674250724286009";
+"454569835605706935" -> "-304987781103750817";
+"5404967095016506260" -> "5980485236376481375";
+"-8408257614897313588" -> "5070900776933635984";
+"-8408257614897313588" -> "-4687214027040191840";
+"-304987781103750817" -> "7364876316270162335";
+"-304987781103750817" -> "-1726757026783964877";
+"-1726757026783964877" -> "-8267993548484073920";
+"-1726757026783964877" -> "770674250724286009";
+"770674250724286009" -> "4979666809573909958";
+"770674250724286009" -> "-8660112306350725620";
+"-1829474999434124016" -> "3195357194884662507";
+"-1829474999434124016" -> "8747827563612458097";
+"-1829474999434124016" -> "790143761775991743";
+"8747827563612458097" -> "5055197247084690416";
+"8747827563612458097" -> "5404967095016506260";
+"-8267993548484073920" -> "-2165641183761141678";
+"-8267993548484073920" -> "1925441941087485724";
+"5444415710582421663" -> "4735669260119232961";
+"5444415710582421663" -> "2201708192412804201";
+"2201708192412804201" -> "-1829474999434124016";
+}
